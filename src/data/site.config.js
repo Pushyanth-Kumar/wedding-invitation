@@ -4,7 +4,7 @@
  */
 
 export const site = {
-  siteUrl: "https://puneethjakkula.github.io/MP-Wedding-Invite/",
+  siteUrl: "https://mruneeth.github.io/wedding-invitation/",
   defaultTheme: "lotus",
   themes: [
     { id: "marigold", label: "Marigold" },
