@@ -13,7 +13,7 @@ function socialMetaPlugin() {
     name: "social-meta",
     transformIndexHtml(html) {
       const pageUrl = absoluteUrl("");
-      const imageUrl = absoluteUrl("og-image.svg");
+      const imageUrl = absoluteUrl("WeddingLogo_MP_v2.png");
       const title = site.meta.title;
       const description = site.meta.description;
       const tags = [
