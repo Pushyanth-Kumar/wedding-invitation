@@ -2,7 +2,7 @@
 
 A single-page, config-driven wedding website built with Vite, React, Tailwind CSS v4, and Motion. It deploys to GitHub Pages.
 
-[Hosted website](https://puneethjakkula.github.io/MP-Wedding-Invite/)
+[Hosted website](https://mruneeth.github.io/wedding-invitation/)
 
 ## Edit the site (non-technical)
 
