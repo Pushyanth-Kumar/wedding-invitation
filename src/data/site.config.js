@@ -38,7 +38,7 @@ export const site = {
     ctaHref: "#invitation",
   },
   invitation: {
-    eyebrow: "Tak Tak!! Hello...",
+    eyebrow: "Tak Tak!! Hello",
     heading: "Please Join Us...",
     paragraphs: [
       "Two lives, Two Families, and One Big Reason to Celebrate. We’d love nothing more than to have your smiles, warmth, and blessings with us as we step into our forever.", "Together with our families, we invite you to join us as we celebrate our Wedding.",
