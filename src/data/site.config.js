@@ -119,7 +119,7 @@ export const site = {
       date: "1 November 2026",
       time: "12:00 PM",
       // venue: "Groom's Home",
-      note: "At Sri Pada Kalyana Mandapam", "Barampet, Narasaraopet",
+      note: "At Sri Pada Kalyana Mandapam, Barampet, Narasaraopet",
       accent: "ruby",
       // mapsUrl: "https://www.google.com/maps/place/Sri+Pada+Kalyana+Mandapam/@16.2446632,80.0505686,17z/data=!4m14!1m7!3m6!1s0x3a4a812533fb841b:0x7791084dda8b1cca!2sSri+Pada+Kalyana+Mandapam!8m2!3d16.2446632!4d80.0531435!16s%2Fg%2F11l76wyx32!3m5!1s0x3a4a812533fb841b:0x7791084dda8b1cca!8m2!3d16.2446632!4d80.0531435!16s%2Fg%2F11l76wyx32?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
