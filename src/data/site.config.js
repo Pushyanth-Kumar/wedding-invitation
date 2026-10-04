@@ -79,7 +79,7 @@ export const site = {
       time: "08:00 AM onwards",
       // venue: "Groom's Home",
       note: "A cheerful celebration where family and friends bless the groom with love, laughter, and festive customs.",
-      accent: "emerald",
+      accent: "ruby",
       // mapsUrl: "https://www.google.com/maps/place/1-1-16%2F11,+Mahalakshmi+Nagar,+Barampet,+Narasaraopeta,+Andhra+Pradesh+522601,+India/@16.242464,80.050015,19z/data=!3m1!4b1!4m15!1m8!3m7!1s0x3a4a80fd770f999d:0x7e799acb2856d0b3!2sBarampet,+Narasaraopeta,+Andhra+Pradesh,+India!3b1!8m2!3d16.2469526!4d80.0543699!16s%2Fg%2F12hz1zykk!3m5!1s0x3a4a8103274cca9f:0xf05cead54d95e30e!8m2!3d16.242464!4d80.0506587!16s%2Fg%2F11jgdsv9bh?authuser=0&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
     {
