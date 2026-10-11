@@ -27,7 +27,7 @@ export const site = {
   displayDate: "30 October 2026, 11:02 AM",
   city: "Visakhapatnam, Andhra Pradesh, India",
   music: {
-    src: "music/song.mp3",
+    src: "music/Ante.mp3",
     labelPlay: "Play music",
     labelPause: "Pause music",
   },
