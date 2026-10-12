@@ -10,7 +10,7 @@ export function Footer() {
       {/* <MarigoldGarland className="mx-auto mb-8 w-full max-w-md" /> */}
 
       <img
-        src={asset("photos/WeddingLogo_MP-removebg.png")}
+        src={asset("photos/HP.png")}
         alt="A beautiful wedding memory"
         className="mx-auto mb-8 h-auto w-40 object-contain"
       />
