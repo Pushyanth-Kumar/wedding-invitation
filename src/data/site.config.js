@@ -137,7 +137,7 @@ export const site = {
     directions:
       "The Function Hall sits right on the Sujatha Nagar Main Road.",
     mapsCta: "Open in Google Maps",
-    mapsUrl: ""https://www.google.com/maps/search/?api=1&query=Indrani+Function+Hall%2C+Door+No+7-76%2C+Main+Road%2C+Sujatha+Nagar%2C+Visakhapatnam%2C+Andhra+Pradesh+530051",",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Indrani+Function+Hall%2C+Door+No+7-76%2C+Main+Road%2C+Sujatha+Nagar%2C+Visakhapatnam%2C+Andhra+Pradesh+530051",
     //loadMapLabel: "Load the map",
     //mapTitle: "Indrani Function Hall, Visakhapatnam",
     //embedUrl:
