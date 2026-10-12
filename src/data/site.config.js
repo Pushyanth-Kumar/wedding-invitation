@@ -247,8 +247,8 @@ export const site = {
 },
 
   footer: {
-    closing: "We await to celebrate with you.",
-    crafted: "With Love 💜",
+    closing: "We eagerly await the joy of celebrating together.",
+    crafted: "With Love 💛",
   },
 };
 
