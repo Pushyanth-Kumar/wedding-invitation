@@ -34,15 +34,15 @@
 }
 
 [data-theme="ruby"] {
-  --page: #fbf1ee;
-  --ink: #3a1218;
-  --muted: #8a4a52;
-  --accent: #c41e3a;
-  --accent-deep: #7a1024;
-  --gold: #c9a227;
-  --band: #2a0f16;
-  --band-ink: #fde8ea;
-  --ornament: #be123c;
+  --page: #5B0D1B;
+  --ink: #FFF5E6;
+  --muted: #E8C9B0;
+  --accent: #D4AF37;
+  --accent-deep: #8F6B16;
+  --gold: #D4AF37;
+  --band: #350711;
+  --band-ink: #FFF5E6;
+  --ornament: #E5B94F;
 }
 
 [data-theme="emerald"] {
