@@ -16,7 +16,7 @@ export const site = {
   meta: {
     title: "Hanisha & Pushyanth Kumar — Wedding Invitation",
     description: "With your Family, join us for our Wedding in Visakhapatnam on 30 October 2026",
-    image: "photos/HP.png",
+    image: "photos/HP.PNG",
   },
   couple: {
     partnerA: "Hanisha",
@@ -99,7 +99,7 @@ export const site = {
       date: "30 October 2026",
       time: "07:00 PM onwards",
       // venue: "Groom's Home",
-      note: "Indrani Function Hall",
+      note: "Indrani Function Hall, Sujatha Nagar, Visakhapatnam",
       accent: "ruby",
       // mapsUrl: "https://www.google.com/maps/place/Indrani+Function+Hall/@17.8027399,83.199288,15.25z/data=!4m14!1m7!3m6!1s0x3a3966e301447675:0xddc9f1595bd6d457!2sIndrani+Function+Hall!8m2!3d17.8017842!4d83.2096413!16s%2Fg%2F11ggfm2_gh!3m5!1s0x3a3966e301447675:0xddc9f1595bd6d457!8m2!3d17.8017842!4d83.2096413!16s%2Fg%2F11ggfm2_gh?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
@@ -119,7 +119,7 @@ export const site = {
       date: "1 November 2026",
       time: "12:00 PM",
       // venue: "Groom's Home",
-      note: "At Sri Pada Kalyana Mandapam, Barampet, Narasaraopet",
+      note: "At Sri Pada Kalyana Mandapam, Barampeta, Narasaraopet",
       accent: "ruby",
       // mapsUrl: "https://www.google.com/maps/place/Sri+Pada+Kalyana+Mandapam/@16.2446632,80.0505686,17z/data=!4m14!1m7!3m6!1s0x3a4a812533fb841b:0x7791084dda8b1cca!2sSri+Pada+Kalyana+Mandapam!8m2!3d16.2446632!4d80.0531435!16s%2Fg%2F11l76wyx32!3m5!1s0x3a4a812533fb841b:0x7791084dda8b1cca!8m2!3d16.2446632!4d80.0531435!16s%2Fg%2F11l76wyx32?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
@@ -163,14 +163,14 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 1000,
-        position: "50% 50%",
+        position: "50% 30%",
       },
       {
         src: "photos/HP2.jpeg",
         alt: "#Hanishyanth",
         width: 600,
         height: 1000,
-        position: "50% 35%",
+        position: "50% 30%",
       },
       {
         src: "photos/HP3.jpeg",
@@ -184,7 +184,7 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 1000,
-        position: "50% 35%",
+        position: "50% 30%",
       },
       {
         src: "photos/HP5.jpeg",
@@ -198,7 +198,7 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 1000,
-        position: "50% 35%",
+        position: "50% 30%",
       },
       {
         src: "photos/HP7.jpeg",
