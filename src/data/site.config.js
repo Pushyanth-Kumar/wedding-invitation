@@ -163,7 +163,7 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 800,
-        position: "70% 25%",
+        position: "70% 20%",
       },
       {
         src: "photos/HP2.jpeg",
@@ -184,7 +184,7 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 600,
-        position: "70% 10%",
+        position: "50% 70%",
       },
       {
         src: "photos/HP5.jpeg",
