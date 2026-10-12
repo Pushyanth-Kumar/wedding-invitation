@@ -16,7 +16,7 @@ export const site = {
   meta: {
     title: "Hanisha & Pushyanth Kumar — Wedding Invitation",
     description: "With your Family, join us for our Wedding in Visakhapatnam on 30 October 2026",
-    image: "photos/HP.PNG",
+    image: "photos/HP.png",
   },
   couple: {
     partnerA: "Hanisha",
