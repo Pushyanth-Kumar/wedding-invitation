@@ -75,8 +75,8 @@ export const site = {
     {
       id: "groom-haldi",
       title: "Groom Haldi and Pellikoduku",
-      date: "28 October 2026",
-      time: "08:00 AM onwards",
+      date: "29 October 2026",
+      time: "06:00 AM onwards",
       // venue: "Groom's Home",
       note: "A cheerful celebration where family and friends bless the groom with love, laughter, and festive customs.",
       accent: "ruby",
