@@ -20,7 +20,7 @@ export function Hero() {
       </p>
       <h1 className="relative mt-4 font-script text-6xl leading-none text-accent-deep sm:text-7xl md:text-8xl">
         <span className="block">{couple.partnerA}</span>
-        <span className="mx-2 text-gold">&</span>
+        <span className="mx-2 text-accent-deep">&</span>
         <span className="block">{couple.partnerB}</span>
       </h1>
       <p className="relative mt-6 font-display text-xl text-ink md:text-2xl">
