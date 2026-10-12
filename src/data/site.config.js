@@ -232,7 +232,7 @@ export const site = {
     },
      {
       id: "A Magical Journey",
-      text: "First a friendship, then a spark, now a brand-new place to start.", "From side-by-side as friends to hand-in-hand forever.", "It all started as a simple friendship. Now, we’re making it official.",
+      text: "First a friendship, then a spark, now a brand-new place to start. From side-by-side as friends to hand-in-hand forever. It all started as a simple friendship. Now, we’re making it official.",
     },
     {
       id: "wedding",
