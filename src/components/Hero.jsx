@@ -19,11 +19,11 @@ export function Hero() {
         {hero.kicker}
       </p>
       <h1 className="relative mt-4 font-script text-6xl leading-none sm:text-7xl md:text-8xl">
-      <span className="block" style={{ color: "#FFD700" }}>
+      <span className="block" style={{ color: "#E6B84A" }}>
       {couple.partnerA}
       </span>
       <span className="mx-2 text-accent-deep">&</span>
-      <span className="block" style={{ color: "#FFD700" }}>
+      <span className="block" style={{ color: "#E6B84A" }}>
       {couple.partnerB}
       </span>
       </h1>
