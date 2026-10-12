@@ -184,7 +184,7 @@ export const site = {
         alt: "#Hanishyanth",
         width: 600,
         height: 600,
-        position: "10% 10%",
+        position: "70% 10%",
       },
       {
         src: "photos/HP5.jpeg",
