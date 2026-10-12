@@ -89,7 +89,7 @@ export const site = {
       date: "30 October 2026",
       time: "11:02 AM",
       // venue: "Indrani Function Hall",
-      note: "Muhurtam: 11:02 AM. The moment we tie our Hearts together.",
+      note: "Two hearts unite in the timeless bond of marriage",
       accent: "ruby",
       // mapsUrl: "https://www.google.com/maps/place/Indrani+Function+Hall/@17.8027399,83.199288,15.25z/data=!4m14!1m7!3m6!1s0x3a3966e301447675:0xddc9f1595bd6d457!2sIndrani+Function+Hall!8m2!3d17.8017842!4d83.2096413!16s%2Fg%2F11ggfm2_gh!3m5!1s0x3a3966e301447675:0xddc9f1595bd6d457!8m2!3d17.8017842!4d83.2096413!16s%2Fg%2F11ggfm2_gh?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
     },
