@@ -4,7 +4,7 @@
  */
 
 export const site = {
-  siteUrl: "https://Hanishyanth.github.io/wedding-invitation/",
+  siteUrl: "https://pushyanth-kumar.github.io/wedding-invitation/",
   defaultTheme: "ruby",
   themes: [
     { id: "marigold", label: "Marigold" },
