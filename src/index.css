@@ -46,15 +46,15 @@
 }
 
 [data-theme="emerald"] {
-  --page: #f3f6ef;
-  --ink: #143023;
-  --muted: #4d6b58;
-  --accent: #0f7a4a;
-  --accent-deep: #14532d;
-  --gold: #c9a227;
-  --band: #0c2418;
-  --band-ink: #e7f5ea;
-  --ornament: #047857;
+  --page: #f8f4e9;
+  --ink: #173b2e;
+  --muted: #617568;
+  --accent: #37664d;
+  --accent-deep: #174733;
+  --gold: #d8c18a;
+  --band: #12382b;
+  --band-ink: #f8f1df;
+  --ornament: #bda36b;
 }
 
 [data-theme="sapphire"] {
