@@ -97,7 +97,7 @@ export const site = {
       id: "Reception",
       title: "Reception in Visakhapatnam",
       date: "30 October 2026",
-      time: "07:00 PM onwards",
+      time: "06:00 PM onwards",
       // venue: "Indrani Function Hall",
       note: "Indrani Function Hall, Sujatha Nagar, Visakhapatnam",
       accent: "ruby",
@@ -117,7 +117,7 @@ export const site = {
       id: "Reception in Narasaraopet",
       title: "Reception in Narasaraopet",
       date: "1 November 2026",
-      time: "12:00 PM",
+      time: "11:00 AM onwards",
       // venue: "Groom's Home",
       note: "At Sri Pada Kalyana Mandapam, Barampeta, Narasaraopet",
       accent: "ruby",
@@ -224,7 +224,7 @@ export const site = {
     {
       id: "first-meeting",
       date: "19 September 2022",
-      text: "A simple Hi started our conversation.",
+      text: "A simple "Hi" started our conversation.",
     },
     {
       id: "first-moments",
