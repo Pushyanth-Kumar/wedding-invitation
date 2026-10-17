@@ -223,7 +223,6 @@ export const site = {
    
     {
       id: "first-meeting",
-      date: "20 September 2022",
       text: "A simple Hi started our conversation.",
     },
     {
