@@ -58,7 +58,7 @@ export const site = {
   },
   lineup: {
     eyebrow: "The celebrations",
-    heading: "Event line-up",
+    heading: "Events",
     // mapsLabel: "Open in Google Maps",
   },
   events: [
