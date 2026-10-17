@@ -24,7 +24,7 @@ export function Venue() {
     <section id="venue" className="px-5 py-20">
       <div className="mx-auto max-w-5xl">
         <div>
-          <p className="font-display text-sm tracking-[0.28em] text-gold uppercase">
+          <p className="font-display text-sm tracking-[0.28em] text-[#B04470] uppercase">
             {venue.eyebrow}
           </p>
 
