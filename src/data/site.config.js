@@ -5,7 +5,7 @@
 
 export const site = {
   siteUrl: "https://pushyanth-kumar.github.io/wedding-invitation/",
-  defaultTheme: "ruby",
+  defaultTheme: "emerald",
   themes: [
     { id: "marigold", label: "Marigold" },
     { id: "ruby", label: "Ruby" },
