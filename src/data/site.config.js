@@ -64,7 +64,7 @@ export const site = {
   events: [
     {
       id: "bride-haldi",
-      title: "Bride Haldi and Pellikuturu",
+      title: "Bride Haldi and Pellikuthuru",
       date: "29 October 2026",
       time: "08:00 AM onwards",
       // venue: "Bride's Home",
