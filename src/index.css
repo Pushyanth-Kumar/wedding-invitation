@@ -317,3 +317,112 @@ body {
     animation: none;
   }
 }
+
+
+/* Forest & Champagne hero redesign */
+.hero-invitation {
+  isolation: isolate;
+  background:
+    radial-gradient(
+      ellipse at center,
+      #fffdf5 0%,
+      #faf4e6 52%,
+      #f2e7cd 100%
+    );
+}
+
+.hero-invitation .botanical-canopy {
+  z-index: 0;
+}
+
+.hero-invitation .falling-petals {
+  z-index: 2;
+}
+
+.hero-inner {
+  text-shadow: 0 1px 0 rgb(255 255 255 / 55%);
+}
+
+.gold-divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: min(310px, 62vw);
+  color: #bb8c31;
+  font-family: var(--font-display);
+  font-size: 23px;
+  line-height: 1;
+}
+
+.gold-divider::before,
+.gold-divider::after {
+  content: "";
+  display: block;
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, #b78a38);
+}
+
+.gold-divider::after {
+  transform: scaleX(-1);
+}
+
+.gold-divider span {
+  text-shadow: 0 1px 0 #fff1c8;
+}
+
+.hero-ampersand {
+  display: block;
+  color: #bd8b2e;
+  font-family: var(--font-script);
+  font-size: 0.72em;
+  line-height: 0.9;
+}
+
+.hero-cta {
+  border: 2px solid #d4ad52;
+  background: linear-gradient(135deg, #174733, #0f3829);
+  color: #fff8e9;
+  box-shadow:
+    0 5px 14px rgb(34 48 31 / 20%),
+    inset 0 1px 0 rgb(255 255 255 / 16%);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgb(34 48 31 / 25%);
+}
+
+@media (max-width: 640px) {
+  .hero-invitation {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+  }
+
+  .hero-invitation .botanical-canopy {
+    width: 145%;
+    max-width: none;
+    left: -22.5%;
+  }
+
+  .hero-inner {
+    max-width: 100%;
+  }
+
+  .hero-invitation h1 {
+    overflow-wrap: anywhere;
+  }
+
+  .gold-divider {
+    width: min(230px, 60vw);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-cta {
+    transition: none;
+  }
+}
