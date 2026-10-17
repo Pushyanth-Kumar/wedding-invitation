@@ -22,7 +22,7 @@ export function Footer() {
       </p>
 
       <p className="mt-2 font-display text-lg text-ink">{displayDate}</p>
-      <p className="mt-2 text-sm tracking-wide text-gold">{hashtag}</p>
+      <p className="mt-2 text-sm tracking-wide text-[#B04470]">{hashtag}</p>
       <p className="mx-auto mt-5 max-w-md text-sm text-muted">
         {footer.closing}
       </p>
