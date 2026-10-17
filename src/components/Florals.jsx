@@ -146,8 +146,6 @@ export function FallingPetals() {
     </div>
   );
 }
-
-        </span>
       ))}
     </div>
   );
