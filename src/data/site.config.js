@@ -223,8 +223,8 @@ export const site = {
    
     {
       id: "first-meeting",
-      date: "19 September 2022",
-      text: "A simple "Hi" started our conversation.",
+      date: "20 September 2022",
+      text: "A simple Hi started our conversation.",
     },
     {
       id: "first-moments",
