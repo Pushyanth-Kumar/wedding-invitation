@@ -8,11 +8,6 @@ function BotanicalCanopy() {
     y: 24 + (i % 4) * 18,
   }));
 
-  const flowers = Array.from({ length: 12 }, (_, i) => ({
-    x: 20 + (i % 6) * 48,
-    y: 600 + Math.floor(i / 6) * 125,
-  }));
-
   return (
     <svg
       className="botanical-canopy pointer-events-none absolute inset-0 h-full w-full"
@@ -142,44 +137,6 @@ function BotanicalCanopy() {
           )}
         </g>
       ))}
-
-      {/* Lush left-side botanical arrangement */}
-      {flowers.map((flower, i) => (
-        <g key={`left-${i}`}>
-          <use
-            href="#leafShape"
-            transform={`translate(${flower.x + 15} ${flower.y}) rotate(${i % 2 ? 45 : 215}) scale(1.3)`}
-          />
-          <use
-            href="#leafShape"
-            transform={`translate(${flower.x + 50} ${flower.y + 25}) rotate(${i % 2 ? 220 : 35})`}
-          />
-          <use
-            href="#whiteFlower"
-            transform={`translate(${flower.x + 24} ${flower.y + 42}) scale(1.15)`}
-          />
-        </g>
-      ))}
-
-      {/* Mirror the arrangement on the right */}
-      <g transform="translate(1600 0) scale(-1 1)">
-        {flowers.map((flower, i) => (
-          <g key={`right-${i}`}>
-            <use
-              href="#leafShape"
-              transform={`translate(${flower.x + 15} ${flower.y}) rotate(${i % 2 ? 45 : 215}) scale(1.3)`}
-            />
-            <use
-              href="#leafShape"
-              transform={`translate(${flower.x + 50} ${flower.y + 25}) rotate(${i % 2 ? 220 : 35})`}
-            />
-            <use
-              href="#whiteFlower"
-              transform={`translate(${flower.x + 24} ${flower.y + 42}) scale(1.15)`}
-            />
-          </g>
-        ))}
-      </g>
 
       {/* Deep green lower corners */}
       <path
