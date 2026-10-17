@@ -98,15 +98,16 @@ export function MarigoldGarland({ className = "" }) {
   );
 }
 
+
 const PETALS = [
-  { left: "6%", delay: "0s", dur: "15s", drift: "18px", rotate: "-25deg" },
-  { left: "18%", delay: "3s", dur: "18s", drift: "-22px", rotate: "20deg" },
-  { left: "31%", delay: "1.2s", dur: "16s", drift: "28px", rotate: "45deg" },
-  { left: "44%", delay: "5s", dur: "20s", drift: "-16px", rotate: "-40deg" },
-  { left: "57%", delay: "2.4s", dur: "17s", drift: "20px", rotate: "15deg" },
-  { left: "69%", delay: "6.5s", dur: "19s", drift: "-26px", rotate: "70deg" },
-  { left: "81%", delay: "0.8s", dur: "14s", drift: "14px", rotate: "-15deg" },
-  { left: "92%", delay: "4.1s", dur: "21s", drift: "-12px", rotate: "35deg" },
+  { left: "6%", delay: "0s", dur: "18s", drift: "24px" },
+  { left: "18%", delay: "3s", dur: "21s", drift: "-28px" },
+  { left: "31%", delay: "1.2s", dur: "19s", drift: "34px" },
+  { left: "44%", delay: "5s", dur: "23s", drift: "-22px" },
+  { left: "57%", delay: "2.4s", dur: "20s", drift: "26px" },
+  { left: "69%", delay: "6.5s", dur: "22s", drift: "-32px" },
+  { left: "81%", delay: "0.8s", dur: "17s", drift: "20px" },
+  { left: "92%", delay: "4.1s", dur: "24s", drift: "-18px" },
 ];
 
 export function FallingPetals() {
@@ -115,39 +116,37 @@ export function FallingPetals() {
       className="falling-petals pointer-events-none absolute inset-0 overflow-hidden"
       aria-hidden="true"
     >
-      {PETALS.map((petal) => (
+      {PETALS.map((leaf) => (
         <span
-          key={petal.left}
+          key={leaf.left}
           className="petal absolute top-[-12%] block"
           style={{
-            left: petal.left,
-            "--delay": petal.delay,
-            "--dur": petal.dur,
-            "--drift": petal.drift,
+            left: leaf.left,
+            "--delay": leaf.delay,
+            "--dur": leaf.dur,
+            "--drift": leaf.drift,
           }}
         >
           <svg
-            width="24"
-            height="28"
-            viewBox="0 0 24 28"
+            width="26"
+            height="34"
+            viewBox="0 0 26 34"
             className="fill-accent"
           >
+            <path d="M3 29 C1 18 5 6 23 3 C24 18 16 29 3 29 Z" />
             <path
-              d="M12 27
-                 C8 25 3 21 2 15
-                 C1 9 4 4 9 1
-                 C10 0.5 11 1.5 12 3
-                 C13 1.5 14 0.5 15 1
-                 C20 4 23 9 22 15
-                 C21 21 16 25 12 27 Z"
-            />
-            <path
-              d="M12 4 C11 10 11 18 12 25"
+              d="M4 29 C10 20 16 13 22 4"
               fill="none"
-              className="stroke-accent-deep/30"
-              strokeWidth="0.8"
+              className="stroke-accent-deep/40"
+              strokeWidth="1"
             />
           </svg>
+        </span>
+      ))}
+    </div>
+  );
+}
+
         </span>
       ))}
     </div>
