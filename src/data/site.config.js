@@ -237,7 +237,7 @@ export const site = {
     {
       id: "wedding",
       date: "30 October 2026",
-      text: "From one simple Hi to forever.",
+      text: "From one simple Hi to Forever.",
       image: "photos/marriage.png",
       imageAlt: "The couple beginning their forever together",
       imageClass: "aspect-[4/3] w-28 sm:w-32 md:w-40",
