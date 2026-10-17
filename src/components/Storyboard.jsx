@@ -8,7 +8,7 @@ export function Storyboard() {
     <section id="storyboard" className="px-5 pb-20 pt-0">
       <div className="mx-auto max-w-3xl">
         {storyboard.eyebrow && (
-          <p className="text-center font-display text-sm tracking-[0.28em] text-gold uppercase">
+          <p className="text-center font-display text-sm tracking-[0.28em] text-[#B04470] uppercase">
             {storyboard.eyebrow}
           </p>
         )}
