@@ -10,6 +10,13 @@ export function Hero() {
       className="relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden px-5 pb-28 pt-16 text-center"
     >
       <FallingPetals />
+      <div className="botanical-frame" aria-hidden="true">
+      <span className="botanical-corner botanical-corner--tl" />
+      <span className="botanical-corner botanical-corner--tr" />
+      <span className="botanical-corner botanical-corner--bl" />
+      <span className="botanical-corner botanical-corner--br" />
+      </div>
+      
       <CornerMandala className="pointer-events-none absolute left-0 top-0 w-36 max-w-[42vw] md:w-56" />
       <CornerMandala className="pointer-events-none absolute right-0 top-0 w-36 max-w-[42vw] origin-center scale-x-[-1] md:w-56" />
       <CornerMandala className="pointer-events-none absolute bottom-16 left-0 w-28 max-w-[36vw] origin-center scale-y-[-1] md:w-44" />
@@ -19,11 +26,11 @@ export function Hero() {
         {hero.kicker}
       </p>
       <h1 className="relative mt-4 font-script text-6xl leading-none sm:text-7xl md:text-8xl">
-      <span className="block" style={{ color: "#E6B84A" }}>
+      <span className="block text-accent-deep">
       {couple.partnerA}
       </span>
-      <span className="mx-2 text-accent-deep">&</span>
-      <span className="block" style={{ color: "#E6B84A" }}>
+      <span className="mx-2 text-gold">&</span>
+      <span className="block text-accent-deep">
       {couple.partnerB}
       </span>
       </h1>
