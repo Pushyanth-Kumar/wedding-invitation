@@ -110,6 +110,7 @@ const PETALS = [
   { left: "92%", delay: "4.1s", dur: "24s", drift: "-18px" },
 ];
 
+
 export function FallingPetals() {
   return (
     <div
@@ -142,10 +143,6 @@ export function FallingPetals() {
             />
           </svg>
         </span>
-      ))}
-    </div>
-  );
-}
       ))}
     </div>
   );
