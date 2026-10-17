@@ -183,6 +183,136 @@ body {
   }
 
   .marquee-track,
+
+  
+/* Forest & Champagne wedding design */
+:root,
+[data-theme="emerald"] {
+  --page: #f8f4e9;
+  --ink: #173b2e;
+  --muted: #617568;
+  --accent: #6f927c;
+  --accent-deep: #174733;
+  --gold: #d8c18a;
+  --band: #12382b;
+  --band-ink: #f8f1df;
+  --ornament: #bda36b;
+}
+
+/* Elegant double border */
+.botanical-frame {
+  position: absolute;
+  inset: 13px;
+  z-index: 1;
+  pointer-events: none;
+  border: 1px solid var(--gold);
+  border-radius: 2px;
+}
+
+.botanical-frame::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border: 1px solid rgb(189 163 107 / 45%);
+}
+
+.botanical-frame::after {
+  content: "❧";
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 14px;
+  background: var(--page);
+  color: var(--ornament);
+  font-family: var(--font-display);
+  font-size: 23px;
+  line-height: 1;
+}
+
+/* Botanical corner ornaments */
+.botanical-corner {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  color: var(--ornament);
+  opacity: .9;
+}
+
+.botanical-corner::before,
+.botanical-corner::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 1px solid currentColor;
+  border-radius: 100% 0 100% 0;
+}
+
+.botanical-corner::after {
+  left: 15px;
+  top: 15px;
+  transform: rotate(90deg);
+}
+
+.botanical-corner--tl {
+  top: 17px;
+  left: 17px;
+}
+
+.botanical-corner--tr {
+  top: 17px;
+  right: 17px;
+  transform: scaleX(-1);
+}
+
+.botanical-corner--bl {
+  bottom: 17px;
+  left: 17px;
+  transform: scaleY(-1);
+}
+
+.botanical-corner--br {
+  bottom: 17px;
+  right: 17px;
+  transform: scale(-1);
+}
+
+/* Soft, drifting leaves */
+.petal {
+  animation: petal-fall var(--dur, 18s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+  filter: drop-shadow(0 2px 2px rgb(23 59 46 / 8%));
+}
+
+@keyframes petal-fall {
+  0% {
+    transform: translate3d(0, -12%, 0) rotate(-20deg);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: .78;
+  }
+
+  45% {
+    transform: translate3d(
+      calc(var(--drift, 24px) * -0.35),
+      48dvh,
+      0
+    ) rotate(90deg);
+  }
+
+  100% {
+    transform: translate3d(
+      var(--drift, 24px),
+      112dvh,
+      0
+    ) rotate(220deg);
+    opacity: .12;
+  }
+}
+
   .marquee-track-reverse {
     animation: none;
   }
